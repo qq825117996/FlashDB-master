@@ -83,9 +83,9 @@ int main(void)
         }
 
         /* run basic KV samples */
-        kvdb_basic_sample(&kvdb);
+        // kvdb_basic_sample(&kvdb);
         /* run string KV samples */
-        kvdb_type_string_sample(&kvdb);
+        // kvdb_type_string_sample(&kvdb);
         /* run blob KV samples */
         kvdb_type_blob_sample(&kvdb);
     }
