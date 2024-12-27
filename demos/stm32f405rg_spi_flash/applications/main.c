@@ -33,7 +33,7 @@ static int counts = 0;
 
 extern void kvdb_basic_sample(fdb_kvdb_t kvdb);
 extern void kvdb_type_string_sample(fdb_kvdb_t kvdb);
-extern void kvdb_type_blob_sample(fdb_kvdb_t kvdb);
+// extern void kvdb_type_blob_sample(fdb_kvdb_t kvdb);
 // extern void tsdb_sample(fdb_tsdb_t tsdb);
 
 static void lock(fdb_db_t db)
