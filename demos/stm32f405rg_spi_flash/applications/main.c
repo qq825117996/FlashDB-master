@@ -106,16 +106,16 @@ int main(void)
          *         128: maximum length of each log
          *        NULL: The user data if you need, now is empty.
          */
-        result = fdb_tsdb_init(&tsdb, "log", "fdb_tsdb1", get_time, 128, NULL);
-        /* read last saved time for simulated timestamp */
-        fdb_tsdb_control(&tsdb, FDB_TSDB_CTRL_GET_LAST_TIME, &counts);
+        // result = fdb_tsdb_init(&tsdb, "log", "fdb_tsdb1", get_time, 128, NULL);
+        // /* read last saved time for simulated timestamp */
+        // fdb_tsdb_control(&tsdb, FDB_TSDB_CTRL_GET_LAST_TIME, &counts);
 
-        if (result != FDB_NO_ERR) {
-            return -1;
-        }
+        // if (result != FDB_NO_ERR) {
+        //     return -1;
+        // }
 
         /* run TSDB sample */
-        tsdb_sample(&tsdb);
+        // tsdb_sample(&tsdb);
     }
 #endif /* FDB_USING_TSDB */
 
